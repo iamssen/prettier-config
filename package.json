@@ -1,13 +1,10 @@
 {
-  "name": "@lunit/prettier-config",
-  "version": "0.1.1",
-  "description": "Lunit prettier config",
+  "name": "@ssen/prettier-config",
+  "version": "1.0.0",
+  "description": "SSen's prettier config",
   "main": "index.json",
-  "repository": "lunit-io/prettier-config",
-  "author": {
-    "name": "Seoyeon Lee",
-    "email": "i@ssen.name"
-  },
+  "repository": "iassen/prettier-config",
+  "author": "Seoyeon Lee <i@ssen.name>",
   "publishConfig": {
     "access": "public"
   },

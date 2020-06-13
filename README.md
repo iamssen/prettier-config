@@ -5,14 +5,14 @@
 Install dependencies.
 
 ```sh
-npm install prettier @lunit/prettier-config --save-dev
+npm install prettier @ssen/prettier-config --save-dev
 ```
 
 Add this config into package.json.
 
 ```json
 {
-  "prettier": "@lunit/prettier-config"
+  "prettier": "@ssen/prettier-config"
 }
 ```
 
@@ -20,7 +20,7 @@ Or if you want to customize this config. make a '.prettierrc.js' file on the pro
 
 ```js
 module.exports = {
-  ...require("@lunit/prettier-config"),
+  ...require("@ssen/prettier-config"),
   // your custom config
   semi: false
 };
